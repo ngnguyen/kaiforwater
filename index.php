@@ -14,20 +14,12 @@ $homeSection->id='pg-home';
 
 //  use boometro Tile for images on default page http://metroui.org.ua/tiles.html
 $homeSection->content=
-		"<div class='right-col'>
-			<span class='vertical-align-helper'></span>
-			<div class='main-nav'>
-				<a href='#project'><img src='img/pg-home/home_01.png' alt='' ></a>
-				<img src='img/pg-home/home_02.png' alt='' >
-				<img src='img/pg-home/home_03.png' alt='' >
-				<img src='img/pg-home/home_04.png' alt='' >
-				<a href='#skills'><img src='img/pg-home/home_05.png' alt='' ></a>
-				<img src='img/pg-home/home_06.png' alt='' >
-				<img src='img/pg-home/home_07.png' alt='' >
-				<img src='img/pg-home/home_08.png' alt='' >
-				<a href='#contact'><img src='img/pg-home/home_09.png' alt='' ></a>
-			</div>
-		</div>";
+	"<div class='home-img-wrapper'>
+		<a href='#project'>
+			<img class='img-lg' src='img/tree.jpg' alt='home page' />
+			<img class='img-sm' src='img/tree-sm.jpg' alt='home page' />
+		</a>
+	</div>";
 
 $projects=new Section();
 $projects->subClass ='project-main';

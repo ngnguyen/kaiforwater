@@ -58,7 +58,7 @@ sub {
   bottom: -0.25em;
 }
 img {
-  max-width: 100%;
+  /*max-width: 100%;*/
   height: auto;
   vertical-align: middle;
   border: 0;
@@ -3365,7 +3365,7 @@ a {
   margin: 0;
 }
 .metro img {
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 .metro img.rounded,
 .metro img.cycle,
