@@ -1,14 +1,8 @@
 html, body{font-family:georgia;}
 .wrapper{
-	height:100%;
-	margin-top:auto;
-	margin-bottom:auto;
-	margin-left:auto;
-	margin-right:auto;
-	width:100%;
-	max-width:1900px;
+	height:100%;margin-top:auto;margin-bottom:auto;margin-left:auto;
+	margin-right:auto;width:100%;max-width:1900px;
 	/*border:1px solid green;*/
-	background: url('../img/light_wool.png');
 }
 .right-col{
 	height:96%;
@@ -50,20 +44,19 @@ footer{
 nav{border:1px dashed yellow;}
 
 #section-project .slides{
-	width:85%;
-	height:100%;
-	/*border:4px solid pink;*/
-	margin-left:auto;
-	margin-right:auto;
+	width:90%;height:100%;/*border:4px solid pink;*/
+	margin-top:5%;margin-left:auto;margin-right:auto;
 }
+.section-right-content-wrapper {	width:75%;}
 .project-main, .section-right-content-wrapper{
-	width:100%;
-	height:85%;
-	/*border:1px dashed black;*/
-	float:left;
+	height:85%;float:left;
+}
+.project-main {
+	background:rgba(255, 255, 255, 0.7) ;
+	width:67%;margin-top:5%;margin-left:4%;margin-right:auto;
 }
 /*#section-project .project-desc{border:2px solid olive;}*/
-#section-project{width:100%;}
+#section-project{width:100%;background:url(../img/bg4.jpg);}
 .project-img{
 	float:left;
 	width:35%;
@@ -94,14 +87,15 @@ ul.dropdown-menu li a{ font-size:12px;}
 	font-size:0.9em;padding-left:35px;
 	padding-right:5px;
 }
+#pg-skills {width:100%;background: url('../img/bg1.jpg');}
 .skill-visualization {
-	width:85%;margin-right:auto;margin-left:auto;
+	width:90%;margin-right:auto;margin-left:auto;
 	height:100%;overflow:hidden;
 }
 #skill-bars{height:48%;margin-bottom:3%;background:url('../img/light_wool.png');}
 #skill-spiderweb {height:42%;margin-bottom:2%;background:url('../img/light_wool.png');}
 .skill-scale{font-size:11px;color:#888;text-align:right;}
-#fullpage {width:70%;}
+#fullpage {width:100%;}
 #project-name li.active a {
 	background-color: #1ba1e2;color:#fff;
 }
@@ -109,6 +103,7 @@ ul.dropdown-menu li a{ font-size:12px;}
 .contact-methods .contact-method {
 	margin-top:20px;color:#888;
 }
+#pg-contact {width:100%;background:url(../img/bg3.jpg);}
 #pg-contact .contact-methods h2 {
 	margin:30px auto 30px auto;text-align:center;
 }
@@ -120,7 +115,7 @@ ul.dropdown-menu li a{ font-size:12px;}
 .contact-methods .contact-col:nth-child(2) {float:left;width:30%;}
 .contact-methods .contact-col:first-child {margin-right:8%;}
 #frm-contact-email-sent {display:hidden;}
-#pg-home {z-index:1;background:#fff;width:152%;}
+#pg-home {z-index:1;background:#fff;width:100%;}
 
 #hrz-nav {
 	border:none;background:transparent;box-shadow:none;

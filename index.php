@@ -119,6 +119,7 @@ $sesamePr->detail=array(
 $projects->content=$sesamePr.$insulinPr.$allrecipesPr.$pashaPr.$cappaPr.$tananPr;
 
 $skills = new Section();
+$skills->id='pg-skills';
 $skills->content="<div class='skill-visualization'>
 	<div id='skill-bars'></div>
 	<div id='skill-spiderweb'></div>
