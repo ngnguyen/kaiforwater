@@ -1,0 +1,157 @@
+html, body{font-family:georgia;}
+.wrapper{
+	height:100%;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	max-width:1900px;
+	/*border:1px solid green;*/
+	background: url('../img/light_wool.png');
+}
+.right-col{
+	height:96%;
+	line-height:96%;
+	vertical-align:middle;
+	float:left;
+	width:100%;
+	/*border:1px dashed blue;*/
+	text-align:center;
+}
+.main-nav {
+	display:inline-block;
+	vertical-align:middle;
+	height:95%;
+	line-height:80%;
+	width:60%;
+	/*border:1px solid orange;*/
+	min-width:310px;
+	text-align:center;
+	overflow:hidden;
+}
+.main-nav span{width:100px;}
+.main-nav img {width:25%;margin:1px;}
+/* .main-logo{float:left;width:40%;height:100%;line-height:100%;vertical-align:middle;}
+.main-logo img{vertical-align:middle;} */
+footer{
+	
+	text-align:right;
+	/*height:5%;width:100%;*/
+	overflow:hidden;
+	/*border:1px dashed olive;*/
+	font-family:georgia;
+	position:absolute;
+	bottom:10px;right:5%;
+}
+.breadcrumbs{height:5%;}
+
+.vertical-align-helper{height:100%;display:inline-block;vertical-align:middle;}
+nav{border:1px dashed yellow;}
+
+#section-project .slides{
+	width:85%;
+	height:100%;
+	/*border:4px solid pink;*/
+	margin-left:auto;
+	margin-right:auto;
+}
+.project-main, .section-right-content-wrapper{
+	width:100%;
+	height:85%;
+	/*border:1px dashed black;*/
+	float:left;
+}
+/*#section-project .project-desc{border:2px solid olive;}*/
+#section-project{width:100%;}
+.project-img{
+	float:left;
+	width:35%;
+	height:auto;
+	margin-left:0;
+	margin-right:4%;
+	/*border:1px dashed orange;*/
+	overflow:hidden;
+}
+
+.project-detail{
+	float:left;width:58%;height:60%;margin-left:0;
+	/*border:1px solid green;*/
+}
+.project-detail li{margin-bottom:2%;}
+.sidebar-wrapper{
+	width:20%;height:87%;
+	position:absolute;top:5%;right:5%;
+}
+.sidebar .fa {margin-right:5px;}
+.sidebar{width:95%;float:right;}
+.sidebar-wrapper .sidebar {overflow:visible;}
+ul.dropdown-menu li a{ font-size:12px;}
+#section-project .controlArrow.next {right:5%;}
+#section-project .controlArrow.prev {left:3%;}
+
+.sidebar-wrapper .sidebar .dropdown-menu li a {
+	font-size:0.9em;padding-left:35px;
+	padding-right:5px;
+}
+.skill-visualization {
+	width:85%;margin-right:auto;margin-left:auto;
+	height:100%;overflow:hidden;
+}
+#skill-bars{height:48%;margin-bottom:3%;background:url('../img/light_wool.png');}
+#skill-spiderweb {height:42%;margin-bottom:2%;background:url('../img/light_wool.png');}
+.skill-scale{font-size:11px;color:#888;text-align:right;}
+#fullpage {width:70%;}
+#project-name li.active a {
+	background-color: #1ba1e2;color:#fff;
+}
+.contact-methods {width:85%;margin-left:auto;margin-right:auto;}
+.contact-methods .contact-method {
+	margin-top:20px;color:#888;
+}
+#pg-contact .contact-methods h2 {
+	margin:30px auto 30px auto;text-align:center;
+}
+#frm-contact .input-control {margin-top:10px;}
+#frm-contact .btn-submit {text-align:right;}
+/*#pg-contact .frm-contact .email, 
+#pg-contact .frm-contact .text { width:45%; }*/
+.contact-methods .contact-col:first-child {float:left;width:60%;}
+.contact-methods .contact-col:nth-child(2) {float:left;width:30%;}
+.contact-methods .contact-col:first-child {margin-right:8%;}
+#frm-contact-email-sent {display:hidden;}
+#pg-home {z-index:1;background:#fff;width:152%;}
+
+#hrz-nav {
+	border:none;background:transparent;box-shadow:none;
+	width:100%;display:none;position:absolute;top:0;
+	margin-right:auto;margin-left:auto;
+}
+#hrz-nav .letter-n { width:50px;}
+#hrz-nav .navbar-toggle {background:transparent;border:none;}
+#hrz-nav .container .navbar-collapse {border:none;}
+
+@media screen and (min-width: 950px) and (max-width: 1100px) {
+	.sidebar-wrapper .sidebar .dropdown-menu li a {font-size:0.7em;}
+	.sidebar-wrapper > .sidebar > ul > li  {font-size:0.9em;}
+}
+
+@media screen and (max-width:949px) {
+	.sidebar-wrapper {display:none;}
+	#hrz-nav {display:initial;}
+	#fullpage {width:100%;}
+	#pg-home {width:100%;}
+}
+
+@media screen and (max-width:640px){
+	.contact-methods .contact-col:first-child {width:100%;}
+	.contact-methods .contact-col:nth-child(2){width:100%;}
+	#section-project .controlArrow.next {right:2%;border-width:18.5px 0 18.5px 14px;}
+	#section-project .controlArrow.prev {left:2%;border-width:18.5px 14px 18.5px 0;}
+	.project-main .project-detail{font-size:1.2em;width:97%;height:40%;margin-left:auto;margin-right:auto;}
+	.project-img {float:none;width:40%;height:20%;margin-right:auto;margin-left:auto;}
+	.project-main .text-warning {font-size:1.2em;}
+	.project-main .project-title {font-size:1.5em;font-weight:bold;}
+	#frm-contact-email-sent div {font-size:1.4em;margin-top:20%;margin:bottom:20%;}
+	.skill-visualization {width:100%;}
+}
