@@ -151,7 +151,10 @@ ul.dropdown-menu li a{ font-size:12px;}
 	.contact-methods .contact-col:nth-child(2){width:100%;}
 	#section-project .controlArrow.next {right:2%;border-width:18.5px 0 18.5px 14px;}
 	#section-project .controlArrow.prev {left:2%;border-width:18.5px 14px 18.5px 0;}
-	.project-main .project-detail{font-size:1.2em;width:97%;height:40%;margin-left:auto;margin-right:auto;}
+	.project-main .project-detail{
+		font-size:1.2em;width:97%;height:40%;margin-left:auto;
+		margin-right:auto;margin-top:10%;
+	}
 	.project-img {
 		float:none;width:90%;height:20%;margin-right:auto;margin-left:auto;
 	}
@@ -162,12 +165,22 @@ ul.dropdown-menu li a{ font-size:12px;}
 	.skill-visualization {width:100%;}
 	#pg-home .img-sm {display:initial;width:100%;margin-top:30%;}
 	#pg-home .img-lg {display:none;}
-	.project-main {width:86%;margin:20% auto auto 7%;}
+	.project-main {width:91%;margin:20% auto auto 5%;}
 	.project-main .tableCell {vertical-align:initial;}
 	.section-right-content-wrapper {width:100%;}
 	.skill-visualization #skill-bars text, 
 	.skill-visualization #skill-spiderweb text {font-size:0.8em !important;}
 	.skill-scale {margin-right:10px;}
-	.contact-methods .contact-col:nth-child(2) {margin-top:27%;}
+	.contact-methods .contact-col:nth-child(2) {margin-top:25%;}
+}
+
+@media screen and (max-width:320px){
+	#hrz-nav ul li a {font-size:0.9em;}
+	.contact-methods .contact-col:nth-child(2) {margin-top:5%;}
+	.section-right-content-wrapper {margin-top:13%;}
+	/*.project-main .project-detail li{font-size:1em;line-height:1.5em;}*/
+	.project-img {height:15%;}
+	.project-main .project-title {font-size:1.4em;}
+	.project-main {height:81%;}
 }
 

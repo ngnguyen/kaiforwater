@@ -50,9 +50,8 @@ $allrecipesPr->detail= array(
 	"Document all Allrecipe internal window apps",
 	"Come up with a plan to migrate all applications under a web based 
 		application suite",
-	"Create a prototype of a web-based app that could support the migration 
-		plan (the prototype is built using ASP.NET MVC, Javascript/Jquery, 
-		Entity Framework, ASP.NET CRUD, SQL Server, HTML,CSS",
+	"Create a prototype of a web-based MVC app that could support the migration 
+		plan",
 	"Build Web API that output data in XML/Json format from the database"
 );
 
@@ -67,8 +66,7 @@ $pashaPr->detail=array(
 	"Build PHP web services to handle requests and manipulate data in 
 		the database",
 	"Design database to store product information, customer information, and 
-		their orders",
-	"Sensitive information is encrypted with SHA1"
+		their orders"
 );
 
 $cappaPr =new ProjectSlide();
