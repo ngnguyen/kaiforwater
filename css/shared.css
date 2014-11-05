@@ -41,7 +41,6 @@ footer{
 .breadcrumbs{height:5%;}
 
 .vertical-align-helper{height:100%;display:inline-block;vertical-align:middle;}
-nav{border:1px dashed yellow;}
 
 #section-project .slides{
 	width:90%;height:100%;/*border:4px solid pink;*/
@@ -113,15 +112,20 @@ ul.dropdown-menu li a{ font-size:12px;}
 /*#pg-contact .frm-contact .email, 
 #pg-contact .frm-contact .text { width:45%; }*/
 .contact-methods .contact-col:first-child {float:left;width:60%;}
-.contact-methods .contact-col:nth-child(2) {float:left;width:30%;}
+.contact-methods .contact-col:nth-child(2) {
+	float:left;width:30%;background:rgba(255, 255, 255, 0.85);
+	border:1px solid #ccc;padding-left:15px;padding-bottom:15px;
+	border-radius:5px;
+}
 .contact-methods .contact-col:first-child {margin-right:8%;}
 #frm-contact-email-sent {display:hidden;}
 #pg-home {z-index:1;background:#fff;width:100%;}
 
 #hrz-nav {
-	border:none;background:transparent;box-shadow:none;
+	/*border:none;background:transparent;box-shadow:none;*/
 	width:100%;display:none;position:absolute;top:0;
 	margin-right:auto;margin-left:auto;
+	border:1px solid #ccc;background:rgba(255,255,255,0.8);
 }
 #hrz-nav .letter-n { width:50px;}
 #hrz-nav .navbar-toggle {background:transparent;border:none;}
@@ -163,5 +167,7 @@ ul.dropdown-menu li a{ font-size:12px;}
 	.section-right-content-wrapper {width:100%;}
 	.skill-visualization #skill-bars text, 
 	.skill-visualization #skill-spiderweb text {font-size:0.8em !important;}
+	.skill-scale {margin-right:10px;}
+	.contact-methods .contact-col:nth-child(2) {margin-top:27%;}
 }
 

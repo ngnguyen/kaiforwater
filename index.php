@@ -156,6 +156,8 @@ $contact->content="<div class='contact-methods'>
 		</div>
 	</div>
 	
+	<hr>
+	
 </div>";
 
 $homepage->content=$homeSection."\n".$projects.$skills.$contact;
