@@ -222,7 +222,7 @@ function createSkillBars(){
         },
 		exporting:{enabled:false},
         series: [{
-            data: [ 6,6,9,5,4,6,6,5,4,4 ]
+            data: [ 6,6,9,5,5,6,6,5,4,4 ]
         }]
     };
 
